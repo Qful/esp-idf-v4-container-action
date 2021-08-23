@@ -1,8 +1,5 @@
 on: [push]
 
-# this is based on
-# https://docs.github.com/en/free-pro-team@latest/actions/creating-actions/creating-a-docker-container-action
-
 jobs:
   test_job:
     runs-on: ubuntu-latest
